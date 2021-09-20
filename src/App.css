@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: hsla(0, 0%, 10%, 1);
+  --darkhover: hsla(0, 0%, 20%, 1);
+  --light: hsla(0, 0%, 98%, 1);
+  --lightfocus: hsla(0, 0%, 78%, 1);
+  --surface: hsla(0, 0%, 50%, 0.1);
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--dark);
+  color: var(--light);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--surface);
+  max-width: 80vw;
+  padding: 2em;
+  border-radius: 0.5em;
+}
+
+.timer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+input.time-minutes:focus {
+  color: var(--light);
+}
+input.time-minutes:hover {
+  cursor: pointer;
+}
+input.time-minutes {
+  width: 100%;
+  font-size: 8em;
+  text-align: center;
+  background-color: transparent;
+  color: var(--lightfocus);
+  outline: var(--dark);
+  border: none;
+}
+.time-seconds {
+  width: 100%;
+  text-align: center;
+  padding-left: 8em;
+  margin-bottom: 0.2em;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.actions button:hover {
+  background-color: var(--darkhover);
+}
+.actions button {
+  font-weight: 600;
+  background-color: var(--dark);
+  color: var(--light);
+  margin: 1em;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+}

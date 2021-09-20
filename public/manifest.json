@@ -1,0 +1,41 @@
+{
+  "name": "Timer",
+  "short_name": "Timer",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#3174aa",
+  "theme_color": "#235680",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/logo_30.png",
+      "type": "image/png",
+      "sizes": "30x30"
+    },
+    {
+      "src": "/img/logo_54.png",
+      "type": "image/png",
+      "sizes": "54x54"
+    },
+    {
+      "src": "/img/logo_72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/img/logo_120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/img/logo_150.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "/img/logo_210.png",
+      "type": "image/png",
+      "sizes": "210x210"
+    }
+  ]
+}
